@@ -1,0 +1,132 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+        .heading {
+            background-color: burlywood;
+        }
+    .box1{
+        background-color: burlywood;
+      }
+    .box2{
+    background-color: darkcyan;
+    }
+    .box3{
+    background-color: blueviolet;
+    }
+    .box4{
+        background-color: orange;
+     }
+     .responsivediv {
+        background-color: thistle;
+     }
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+       .heading {
+            background-color: thistle;
+        }
+    .box1{
+        background-color: thistle;
+      }
+    .box2{
+    background-color: darkcyan;
+    }
+    .box3{
+    background-color: rebeccapurple;
+    }
+    .box4{
+        background-color: cornflowerblue;
+     }
+     .responsivediv {
+        background-color: deepskyblue;
+     }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .heading {
+            background-color: deepskyblue;
+        }
+      .box1{
+        background-color: deepskyblue;
+      }
+    .box2{
+    background-color: orchid;
+    }
+    .box3{
+    background-color:  gray;
+    }
+    .box4{
+        background-color: thistle;
+     }
+     .responsivediv {
+        background-color: olive;
+     }
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .heading {
+            background-color: dimgrey;
+        }
+     .box1{
+        background-color: dimgrey;
+      }
+    .box2{
+    background-color: steelblue;
+    }
+    .box3{
+    background-color: darkmagenta;
+    }
+    .box4{
+        background-color: yellowgreen;
+     }
+     .responsivediv {
+        background-color: steelblue;
+     }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .heading {
+            background-color: magenta;
+        }
+   .box1{
+        background-color: magenta;
+      }
+    .box2{
+    background-color: darkcyan;
+    }
+    .box3{
+    background-color: saddlebrown;
+    }
+    .box4{
+        background-color: orange;
+     }
+     .responsivediv {
+        background-color: #9acd32ad;
+     }
+ }
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    .heading {
+            background-color: cadetblue;
+        }
+    .box1{
+        background-color: cadetblue;
+      }
+    .box2{
+    background-color: chocolate;
+    }
+    .box3{
+    background-color: crimson;
+    }
+    .box4{
+        background-color: olive;
+     }
+     .responsivediv {
+        background-color: cadetblue;
+     }
+
+ }
